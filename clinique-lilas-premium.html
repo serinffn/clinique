@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html class="light" lang="fr">
+<head>
+<head> 
+<link href="output.css" rel="stylesheet"> 
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Clinique Les Lilas | Excellence Médicale — Bir El Djir, Oran</title>
+<meta name="description" content="Clinique Les Lilas — Centre médical complet à Bir El Djir, Oran. Imagerie médicale, laboratoire d'analyses, médecine nucléaire, consultations spécialisées."/>
+<meta name="keywords" content="clinique Oran, imagerie médicale Oran, analyses médicales Oran, médecin spécialiste Oran, clinique Les Lilas Bir El Djir"/>
+<meta property="og:title" content="Clinique Les Lilas | Excellence Médicale — Oran"/>
+<meta property="og:description" content="Centre médical complet à Bir El Djir, Oran"/>
+<meta property="og:type" content="website"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Public+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#7c0056",
+        "primary-container": "#9b236f",
+        "on-primary": "#ffffff",
+        "on-primary-container": "#ffb7d9",
+        "secondary": "#864c6a",
+        "secondary-container": "#fdb4d7",
+        "on-secondary": "#ffffff",
+        "on-secondary-container": "#7b4260",
+        "surface": "#f9f9fb",
+        "surface-container": "#eeeef0",
+        "surface-container-low": "#f3f3f5",
+        "surface-container-high": "#e8e8ea",
+        "surface-container-lowest": "#ffffff",
+        "surface-container-highest": "#e2e2e4",
+        "on-surface": "#1a1c1d",
+        "on-surface-variant": "#55414a",
+        "outline": "#87717a",
+        "outline-variant": "#dac0ca",
+        "background": "#f9f9fb",
+        "on-background": "#1a1c1d",
+        "inverse-primary": "#ffafd6",
+        "primary-fixed": "#ffd8e8",
+        "primary-fixed-dim": "#ffafd6",
+        "tertiary": "#194900",
+        "tertiary-container": "#256300",
+        "tertiary-fixed": "#aef587",
+        "on-tertiary": "#ffffff",
+        "on-tertiary-container": "#98de73",
+        "error": "#ba1a1a",
+        "error-container": "#ffdad6",
+        "on-error": "#ffffff",
+        "on-error-container": "#93000a",
+        "surface-dim": "#d9dadc",
+        "surface-bright": "#f9f9fb",
+        "inverse-surface": "#2f3132",
+        "inverse-on-surface": "#f0f0f2",
+        "surface-tint": "#a62d78",
+        "surface-variant": "#e2e2e4"
+      },
+      fontFamily: {
+        "headline": ["Manrope"],
+        "body": ["Public Sans"],
+        "label": ["Public Sans"]
+      },
+      borderRadius: {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "2xl": "1rem",
+        "3xl": "1.5rem",
+        "full": "9999px"
+      }
+    }
+  }
+}
+</script>
+<style>
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+  }
+  body { font-family: 'Public Sans', sans-serif; }
+  h1, h2, h3, h4, .font-headline { font-family: 'Manrope', sans-serif; }
+  .editorial-gradient { background: linear-gradient(135deg, #7c0056 0%, #9b236f 100%); }
+  .editorial-shadow { box-shadow: 0 24px 48px -12px rgba(124, 0, 86, 0.08); }
+  .glass-nav {
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  .page { display: none; animation: fadeUp 0.35s ease forwards; }
+  .page.active { display: block; }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .service-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+  .service-card:hover { transform: translateY(-4px); }
+  .doctor-card { transition: transform 0.3s ease; }
+  .doctor-card:hover { transform: translateY(-4px); }
+  input, select, textarea {
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  input:focus, select:focus, textarea:focus {
+    border-color: #7c0056 !important;
+    box-shadow: 0 0 0 3px rgba(124,0,86,0.08);
+  }
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 56px;
+    height: 56px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 24px rgba(37,211,102,0.4);
+    z-index: 9999;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .whatsapp-btn:hover { transform: scale(1.08); box-shadow: 0 8px 32px rgba(37,211,102,0.5); }
+  .stat-num { font-family: 'Manrope', sans-serif; }
+  .topbar-contact { transition: opacity 0.2s; }
+  .topbar-contact:hover { opacity: 1 !important; }
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal:nth-child(2) { transition-delay: 0.1s; }
+  .reveal:nth-child(3) { transition-delay: 0.2s; }
+  .reveal:nth-child(4) { transition-delay: 0.3s; }
+  .reveal:nth-child(5) { transition-delay: 0.4s; }
+  .reveal:nth-child(6) { transition-delay: 0.5s; }
+</style>
+</head>
+<body class="bg-background text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
+
+<!-- TOPBAR -->
+<div class="w-full bg-primary py-2 px-6">
+  <div class="max-w-7xl mx-auto flex items-center justify-between flex-wrap gap-2">
+    <div class="flex items-center gap-6 flex-wrap">
+      <a href="tel:0560140140" class="topbar-contact flex items-center gap-2 text-white/80 text-xs font-medium hover:text-white no-underline" style="text-decoration:none; opacity:0.85;">
+        <span class="material-symbols-outlined text-sm">call</span>
+        Consultation : 0560 140 140
+      </a>
+      <span class="hidden sm:block w-px h-3 bg-white/20"></span>
+      <a href="tel:0560120420" class="topbar-contact flex items-center gap-2 text-white/80 text-xs font-medium hover:text-white no-underline" style="text-decoration:none; opacity:0.85;">
+        <span class="material-symbols-outlined text-sm">science</span>
+        Laboratoire : 0560 120 420
+      </a>
+      <span class="hidden sm:block w-px h-3 bg-white/20"></span>
+      <a href="tel:0560120220" class="topbar-contact flex items-center gap-2 text-white/80 text-xs font-medium hover:text-white no-underline" style="text-decoration:none; opacity:0.85;">
+        <span class="material-symbols-outlined text-sm">radiology</span>
+        Imagerie : 0560 120 220
+      </a>
+    </div>
+    <span class="text-white/50 text-xs font-semibold tracking-widest uppercase hidden md:block">Ouvert 7j/7 · 24h/24</span>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="fixed top-8 w-full z-50 glass-nav shadow-sm shadow-primary/5 h-20" id="navbar">
+  <div class="flex justify-between items-center max-w-7xl mx-auto px-6 h-full">
+    <button onclick="showPage('home')" class="flex items-center gap-3 bg-transparent border-none cursor-pointer p-0">
+      <svg width="38" height="38" viewBox="0 0 42 42" fill="none">
+        <circle cx="13" cy="13" r="11" fill="#C2185B"/>
+        <circle cx="29" cy="13" r="11" fill="#9C27B0" opacity="0.75"/>
+        <circle cx="13" cy="29" r="11" fill="#9C27B0" opacity="0.55"/>
+        <circle cx="29" cy="29" r="11" fill="#C2185B" opacity="0.65"/>
+      </svg>
+      <div class="text-left">
+        <div class="text-base font-bold tracking-tight text-primary font-headline">Clinique Les Lilas</div>
+        <div class="text-xs text-primary/60 tracking-widest uppercase font-semibold" style="font-size:9px;">Bir El Djir · Oran</div>
+      </div>
+    </button>
+    <div class="hidden md:flex items-center space-x-2 font-headline font-semibold text-sm tracking-tight" id="navMenu">
+      <button onclick="showPage('home')" id="nav-home" class="nav-link px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all border-none bg-transparent cursor-pointer font-semibold text-sm font-headline">Accueil</button>
+      <button onclick="showPage('services')" id="nav-services" class="nav-link px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all border-none bg-transparent cursor-pointer font-semibold text-sm font-headline">Services</button>
+      <button onclick="showPage('equipe')" id="nav-equipe" class="nav-link px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all border-none bg-transparent cursor-pointer font-semibold text-sm font-headline">Équipe</button>
+      <button onclick="showPage('about')" id="nav-about" class="nav-link px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all border-none bg-transparent cursor-pointer font-semibold text-sm font-headline">À Propos</button>
+      <button onclick="showPage('contact')" id="nav-contact" class="nav-link px-3 py-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all border-none bg-transparent cursor-pointer font-semibold text-sm font-headline">Contact</button>
+      <button onclick="showPage('contact')" class="editorial-gradient text-white px-6 py-2.5 rounded-full font-headline font-bold text-sm hover:opacity-90 transition-all duration-300 active:scale-95 shadow-lg shadow-primary/20 border-none cursor-pointer ml-2">Prendre RDV</button>
+    </div>
+    <button class="md:hidden flex flex-col gap-1.5 p-2 border-none bg-transparent cursor-pointer" onclick="toggleMobileMenu()">
+      <span class="w-5 h-0.5 bg-on-surface block"></span>
+      <span class="w-5 h-0.5 bg-on-surface block"></span>
+      <span class="w-5 h-0.5 bg-on-surface block"></span>
+    </button>
+  </div>
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden md:hidden absolute top-20 left-0 right-0 bg-white shadow-lg border-t border-outline-variant/20 px-6 py-4 flex flex-col gap-2">
+    <button onclick="showPage('home'); toggleMobileMenu()" class="text-left px-3 py-3 rounded-xl text-on-surface hover:bg-surface-container transition-all border-none bg-transparent cursor-pointer font-semibold text-sm">Accueil</button>
+    <button onclick="showPage('services'); toggleMobileMenu()" class="text-left px-3 py-3 rounded-xl text-on-surface hover:bg-surface-container transition-all border-none bg-transparent cursor-pointer font-semibold text-sm">Services</button>
+    <button onclick="showPage('equipe'); toggleMobileMenu()" class="text-left px-3 py-3 rounded-xl text-on-surface hover:bg-surface-container transition-all border-none bg-transparent cursor-pointer font-semibold text-sm">Équipe</button>
+    <button onclick="showPage('about'); toggleMobileMenu()" class="text-left px-3 py-3 rounded-xl text-on-surface hover:bg-surface-container transition-all border-none bg-transparent cursor-pointer font-semibold text-sm">À Propos</button>
+    <button onclick="showPage('contact'); toggleMobileMenu()" class="editorial-gradient text-white px-6 py-3 rounded-full font-bold text-sm border-none cursor-pointer mt-2">Prendre RDV</button>
+  </div>
+</nav>
+
+<!-- ==================== PAGE: HOME ==================== -->
+<div class="page active" id="page-home">
+
+  <!-- HERO -->
+  <section class="relative min-h-screen flex items-center overflow-hidden bg-surface pt-28">
+    <!-- Background image: clinique facade -->
+    <div class="absolute inset-0 z-0">
+      <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1800" alt="Clinique moderne" class="w-full h-full object-cover opacity-10 grayscale"/>
+      <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/95 to-surface/70"></div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10 w-full py-16">
+      <div class="lg:col-span-7 space-y-8">
+        <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label text-xs font-bold uppercase tracking-widest">
+          <span class="w-2 h-2 rounded-full bg-primary animate-pulse inline-block"></span>
+          Centre Médical de Référence à Oran
+        </span>
+        <h1 class="font-headline text-5xl md:text-7xl font-extrabold text-on-surface tracking-tighter leading-[1.05]">
+          Une prise en charge<br/><span class="text-primary italic">d'excellence</span><br/>au cœur de votre santé
+        </h1>
+        <p class="text-on-surface-variant text-lg md:text-xl max-w-xl leading-relaxed font-body">
+          Clinique Les Lilas allie technologie de pointe et expertise humaine pour offrir des soins spécialisés dans un environnement serein et professionnel.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 pt-2">
+          <button onclick="showPage('contact')" class="editorial-gradient text-white px-8 py-4 rounded-full font-headline font-bold text-base shadow-xl shadow-primary/25 hover:opacity-90 transition-all active:scale-95 border-none cursor-pointer">
+            Prendre Rendez-vous
+          </button>
+          <button onclick="showPage('services')" class="flex items-center justify-center gap-2 px-8 py-4 rounded-full font-headline font-bold text-base text-primary hover:bg-surface-container transition-colors border border-outline-variant/30 bg-transparent cursor-pointer">
+            Nos Services
+            <span class="material-symbols-outlined text-lg">arrow_forward</span>
+          </button>
+        </div>
+        <!-- Contact quick pills -->
+        <div class="flex flex-wrap gap-3 pt-2">
+          <a href="tel:0560140140" class="flex items-center gap-2 bg-surface-container border border-outline-variant/20 px-4 py-2.5 rounded-full text-sm font-semibold text-on-surface hover:border-primary/30 hover:bg-surface-container-high transition-all" style="text-decoration:none;">
+            <span class="material-symbols-outlined text-primary text-base">call</span>
+            0560 140 140
+          </a>
+          <a href="tel:0560120420" class="flex items-center gap-2 bg-surface-container border border-outline-variant/20 px-4 py-2.5 rounded-full text-sm font-semibold text-on-surface hover:border-primary/30 hover:bg-surface-container-high transition-all" style="text-decoration:none;">
+            <span class="material-symbols-outlined text-primary text-base">science</span>
+            0560 120 420
+          </a>
+          <a href="tel:0560120220" class="flex items-center gap-2 bg-surface-container border border-outline-variant/20 px-4 py-2.5 rounded-full text-sm font-semibold text-on-surface hover:border-primary/30 hover:bg-surface-container-high transition-all" style="text-decoration:none;">
+            <span class="material-symbols-outlined text-primary text-base">radiology</span>
+            0560 120 220
+          </a>
+        </div>
+      </div>
+      <!-- Right: clinique interior photo card -->
+      <div class="lg:col-span-5 hidden lg:block">
+        <div class="relative">
+          <div class="aspect-[4/5] rounded-3xl overflow-hidden editorial-shadow border-4 border-white">
+            <img src="image/clinique2.jpg" alt="Intérieur Clinique Les Lilas" class="w-full h-full object-cover"/>
+          </div>
+          <div class="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl editorial-shadow max-w-[220px] border border-outline-variant/10">
+            <div class="flex gap-1 text-yellow-400 mb-2">
+              <span class="material-symbols-outlined text-base" style="font-variation-settings:'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-base" style="font-variation-settings:'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-base" style="font-variation-settings:'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-base" style="font-variation-settings:'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-base" style="font-variation-settings:'FILL' 1;">star</span>
+            </div>
+            <p class="text-xs font-semibold text-on-surface leading-snug">Leader en diagnostic avancé et médecine nucléaire à Oran.</p>
+          </div>
+          <div class="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold shadow-lg">
+            24h/24 · 7j/7
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAND -->
+  <div class="editorial-gradient py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10 rounded-2xl overflow-hidden">
+        <div class="bg-white/5 px-8 py-10 text-center hover:bg-white/10 transition-colors">
+          <div class="stat-num text-5xl font-extrabold text-white mb-2"><span data-count="15">0</span><span class="text-inverse-primary">+</span></div>
+          <div class="text-white/55 text-sm font-medium">Médecins Spécialistes</div>
+        </div>
+        <div class="bg-white/5 px-8 py-10 text-center hover:bg-white/10 transition-colors">
+          <div class="stat-num text-5xl font-extrabold text-white mb-2"><span data-count="50">0</span><span class="text-inverse-primary">k+</span></div>
+          <div class="text-white/55 text-sm font-medium">Patients pris en charge</div>
+        </div>
+        <div class="bg-white/5 px-8 py-10 text-center hover:bg-white/10 transition-colors">
+          <div class="stat-num text-5xl font-extrabold text-white mb-2"><span data-count="20">0</span><span class="text-inverse-primary">+</span></div>
+          <div class="text-white/55 text-sm font-medium">Équipements de pointe</div>
+        </div>
+        <div class="bg-white/5 px-8 py-10 text-center hover:bg-white/10 transition-colors">
+          <div class="stat-num text-5xl font-extrabold text-white mb-2"><span data-count="24">0</span><span class="text-inverse-primary">h</span></div>
+          <div class="text-white/55 text-sm font-medium">Service disponible</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES APERCU -->
+  <section class="py-24 bg-surface-container-low">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+        <div class="max-w-2xl">
+          <span class="text-primary font-headline font-bold tracking-widest uppercase text-xs mb-4 block">Plateau Technique</span>
+          <h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-surface tracking-tighter">Des services médicaux <span class="text-primary italic">complets</span></h2>
+          <p class="text-on-surface-variant text-lg mt-4 leading-relaxed">Nous disposons des technologies les plus avancées pour un diagnostic précis et rapide, au service de votre rétablissement.</p>
+        </div>
+        <button onclick="showPage('services')" class="text-primary font-bold flex items-center gap-2 hover:underline bg-transparent border-none cursor-pointer text-sm font-headline whitespace-nowrap">
+          Tous les services
+          <span class="material-symbols-outlined">arrow_outward</span>
+        </button>
+      </div>
+      <!-- Bento grid -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Imagerie (Large) -->
+        <div class="md:col-span-2 md:row-span-2 group relative overflow-hidden rounded-3xl bg-surface-container-lowest editorial-shadow service-card">
+          <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800" alt="Imagerie médicale" class="w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-500 group-hover:opacity-15"/>
+          </div>
+          <div class="relative p-10 h-full flex flex-col justify-end min-h-[480px]">
+            <span class="material-symbols-outlined text-primary text-5xl mb-6">radiology</span>
+            <h3 class="font-headline text-3xl font-bold text-on-surface mb-4">Imagerie Médicale</h3>
+            <p class="text-on-surface-variant mb-6 leading-relaxed">Scanner 128 barrettes, IRM, Mammographie, Échographie, Radiologie conventionnelle et Panoramique dentaire.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-surface-container px-3 py-1 rounded text-xs font-bold uppercase tracking-wider text-on-surface-variant">Scanner 128B</span>
+              <span class="bg-surface-container px-3 py-1 rounded text-xs font-bold uppercase tracking-wider text-on-surface-variant">IRM</span>
+              <span class="bg-surface-container px-3 py-1 rounded text-xs font-bold uppercase tracking-wider text-on-surface-variant">Mammographie</span>
+            </div>
+          </div>
+        </div>
+        <!-- Laboratoire -->
+        <div class="md:col-span-2 group relative overflow-hidden rounded-3xl bg-primary text-white editorial-shadow p-8 flex flex-col justify-between min-h-[220px] service-card">
+          <div class="flex justify-between items-start">
+            <span class="material-symbols-outlined text-4xl text-inverse-primary">biotech</span>
+            <span class="text-white/50 font-label text-xs uppercase tracking-widest">Dept. 02</span>
+          </div>
+          <div>
+            <h3 class="font-headline text-2xl font-bold mb-2">Laboratoire d'Analyses</h3>
+            <p class="text-white/75 text-sm leading-relaxed">Bilans sanguins, PCR, charges virales HBV/HCV/HIV, Système GeneXpert, dépistage tuberculose.</p>
+          </div>
+        </div>
+        <!-- Médecine Nucléaire -->
+        <div class="group relative overflow-hidden rounded-3xl bg-surface-container-lowest editorial-shadow p-8 hover:bg-secondary-container/10 transition-colors service-card">
+          <span class="material-symbols-outlined text-primary text-4xl mb-6 block">hub</span>
+          <h3 class="font-headline text-xl font-bold text-on-surface mb-2">Médecine Nucléaire</h3>
+          <p class="text-on-surface-variant text-sm leading-relaxed">Scintigraphie myocardique, thyroïdienne et rénale.</p>
+          <span class="text-xs font-bold uppercase tracking-widest text-outline-variant block mt-4">Dept. 03</span>
+        </div>
+        <!-- Endoscopies -->
+        <div class="group relative overflow-hidden rounded-3xl bg-surface-container-lowest editorial-shadow p-8 hover:bg-secondary-container/10 transition-colors service-card">
+          <span class="material-symbols-outlined text-primary text-4xl mb-6 block">gastroenterology</span>
+          <h3 class="font-headline text-xl font-bold text-on-surface mb-2">Explorations Endoscopiques</h3>
+          <p class="text-on-surface-variant text-sm leading-relaxed">Fibroscopie, coloscopie, nasofibroscopie, endoscopie rénale.</p>
+          <span class="text-xs font-bold uppercase tracking-widest text-outline-variant block mt-4">Dept. 04</span>
+        </div>
+        <!-- GeneXpert / Lab photo -->
+        <div class="md:col-span-2 bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow flex flex-col md:flex-row items-center gap-0 service-card">
+          <div class="flex-1 p-8 md:p-10">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                <span class="material-symbols-outlined text-xl">verified_user</span>
+              </div>
+              <span class="text-xs font-bold tracking-widest text-outline uppercase">Système Certifié</span>
+            </div>
+            <h3 class="font-headline text-2xl font-bold text-on-surface mb-3">Système GeneXpert</h3>
+            <p class="text-on-surface-variant text-sm leading-relaxed mb-6">Innovation mondiale pour des tests moléculaires rapides et automatisés. Charges virales, BCR-ABL, tuberculose.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-surface-container px-3 py-1.5 rounded-full text-xs font-medium text-on-surface-variant">PCR Rapide</span>
+              <span class="bg-surface-container px-3 py-1.5 rounded-full text-xs font-medium text-on-surface-variant">HBV/HCV/HIV</span>
+              <span class="bg-surface-container px-3 py-1.5 rounded-full text-xs font-medium text-on-surface-variant">BCR-ABL</span>
+            </div>
+          </div>
+          <div class="w-full md:w-2/5 h-48 md:h-full overflow-hidden">
+            <img src="image/brano-Mm1VIPqd0OA-unsplash.jpg" alt="Laboratoire GeneXpert" class="w-full h-full object-cover"/>
+          </div>
+        </div>
+        <!-- Consultations -->
+        <div class="md:col-span-2 group relative overflow-hidden rounded-3xl editorial-shadow service-card" style="background: linear-gradient(135deg, #1a0010 0%, #2d0020 100%); min-height: 220px;">
+          <div class="absolute inset-0 opacity-20">
+            <img src="image/consultation.jpg" alt="Consultation" class="w-full h-full object-cover"/>
+          </div>
+          <div class="relative p-8 h-full flex flex-col justify-between">
+            <span class="bg-white/10 backdrop-blur text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest w-fit border border-white/10">Consultations Spécialisées</span>
+            <div>
+              <h3 class="font-headline text-2xl font-extrabold text-white mb-3">11 Spécialités Médicales</h3>
+              <p class="text-white/65 text-sm mb-5 leading-relaxed">Cardiologie, Néphrologie, Pneumologie, Gastro-entérologie, Traumatologie, Hématologie, Médecine interne.</p>
+              <button onclick="showPage('equipe')" class="bg-white text-primary px-6 py-2.5 rounded-full font-headline font-bold text-sm hover:bg-primary hover:text-white transition-colors border-none cursor-pointer">
+                Voir l'équipe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLINIQUE PHOTOS -->
+  <section class="py-24 bg-surface">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div class="space-y-8">
+        <span class="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">Notre Établissement</span>
+        <h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-surface tracking-tight leading-tight">L'innovation au <span class="text-primary italic">service de l'humain</span></h2>
+        <p class="text-on-surface-variant text-lg leading-relaxed">À la Clinique Les Lilas, nous croyons que l'excellence médicale passe par l'investissement constant dans les technologies de pointe et le bien-être de chaque patient.</p>
+        <div class="grid grid-cols-2 gap-6">
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-primary/8 flex items-center justify-center text-primary border border-primary/10">
+              <span class="material-symbols-outlined">verified_user</span>
+            </div>
+            <div>
+              <h4 class="font-bold text-on-surface mb-1 text-sm">Qualité Certifiée</h4>
+              <p class="text-xs text-on-surface-variant leading-relaxed">Protocoles rigoureux de sécurité et de soins.</p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-primary/8 flex items-center justify-center text-primary border border-primary/10">
+              <span class="material-symbols-outlined">speed</span>
+            </div>
+            <div>
+              <h4 class="font-bold text-on-surface mb-1 text-sm">Résultats Rapides</h4>
+              <p class="text-xs text-on-surface-variant leading-relaxed">Analyses et diagnostics précis sans délai.</p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-primary/8 flex items-center justify-center text-primary border border-primary/10">
+              <span class="material-symbols-outlined">groups</span>
+            </div>
+            <div>
+              <h4 class="font-bold text-on-surface mb-1 text-sm">Équipe Experte</h4>
+              <p class="text-xs text-on-surface-variant leading-relaxed">Professeurs universitaires renommés.</p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-primary/8 flex items-center justify-center text-primary border border-primary/10">
+              <span class="material-symbols-outlined">schedule</span>
+            </div>
+            <div>
+              <h4 class="font-bold text-on-surface mb-1 text-sm">Disponibilité 24h/24</h4>
+              <p class="text-xs text-on-surface-variant leading-relaxed">Service médical disponible à tout moment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Real clinique photos -->
+      <div class="grid grid-cols-2 gap-4">
+        <div class="rounded-3xl overflow-hidden aspect-square editorial-shadow">
+          <img src="image/doc.jpg" alt="Clinique Les Lilas façade" class="w-full h-full object-cover"/>
+        </div>
+        <div class="rounded-3xl overflow-hidden aspect-square mt-8 editorial-shadow">
+          <img src="image/salle_attente.jpg" alt="Salle d'attente Clinique Les Lilas" class="w-full h-full object-cover"/>
+        </div>
+        <div class="rounded-3xl overflow-hidden aspect-square editorial-shadow">
+          <img src="image/entre.jpg" alt="Entrée Clinique Les Lilas" class="w-full h-full object-cover"/>
+        </div>
+        <div class="rounded-3xl overflow-hidden aspect-square mt-8 editorial-shadow bg-primary/5 flex items-center justify-center border border-primary/10">
+          <div class="text-center p-6">
+            <div class="text-4xl font-extrabold text-primary font-headline mb-1">13</div>
+            <div class="text-xs text-on-surface-variant font-semibold uppercase tracking-wider">Zone des cliniques</div>
+            <div class="text-xs text-primary font-bold mt-1">Bir El Djir · Oran</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="editorial-gradient rounded-[2rem] p-12 md:p-24 text-center relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-black/5 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl pointer-events-none"></div>
+        <div class="relative z-10">
+          <h2 class="text-3xl md:text-5xl font-headline font-extrabold text-white mb-6 max-w-2xl mx-auto tracking-tight leading-tight">
+            Votre santé mérite l'excellence médicale.
+          </h2>
+          <p class="text-white/65 text-lg mb-10 max-w-lg mx-auto">Prenez rendez-vous dès maintenant avec nos spécialistes renommés.</p>
+          <div class="flex flex-col md:flex-row items-center justify-center gap-4">
+            <button onclick="showPage('contact')" class="bg-white text-primary px-10 py-4 rounded-full font-headline font-bold text-base hover:scale-105 transition-transform border-none cursor-pointer shadow-lg">
+              Prendre Rendez-vous
+            </button>
+            <a href="tel:0560140140" class="text-white border border-white/20 bg-white/10 backdrop-blur px-10 py-4 rounded-full font-headline font-bold text-base hover:bg-white/20 transition-colors" style="text-decoration:none;">
+              Appeler : 0560 140 140
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ==================== PAGE: SERVICES ==================== -->
+<div class="page" id="page-services">
+  <section class="pt-40 pb-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-end mb-20">
+        <div>
+          <span class="text-primary font-headline font-bold tracking-widest uppercase text-xs mb-4 block">Excellence Médicale</span>
+          <h1 class="font-headline text-5xl md:text-7xl font-extrabold text-on-surface tracking-tighter leading-none mb-6">
+            Nos Spécialités <span class="text-primary italic">Médicales.</span>
+          </h1>
+          <p class="text-on-surface-variant text-lg max-w-md leading-relaxed">Clinique Les Lilas dispose d'un plateau technique complet pour un diagnostic précis et une prise en charge globale.</p>
+        </div>
+        <div class="hidden md:flex gap-12 pb-4 justify-end items-end">
+          <div>
+            <p class="text-3xl font-headline font-bold text-primary">24/7</p>
+            <p class="text-sm text-on-surface-variant">Service disponible</p>
+          </div>
+          <div>
+            <p class="text-3xl font-headline font-bold text-primary">15+</p>
+            <p class="text-sm text-on-surface-variant">Spécialistes</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Cardiologie -->
+        <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow hover:shadow-lg transition-shadow service-card flex flex-col justify-between h-[420px]">
+          <div>
+            <div class="w-12 h-12 rounded-full bg-secondary-container/50 flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+              <span class="material-symbols-outlined text-primary">cardiology</span>
+            </div>
+            <h3 class="font-headline text-2xl font-bold text-on-surface mb-4">Cardiologie Avancée</h3>
+            <p class="text-on-surface-variant text-sm leading-relaxed mb-4">IRM Cardiaque, Coroscanner, Scintigraphie myocardique, Échocardiographie.</p>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-primary font-headline font-bold text-sm flex items-center gap-1">Pr. BELGACEM A.</span>
+            <span class="text-xs uppercase font-bold tracking-widest text-outline-variant">Dept. 01</span>
+          </div>
+        </div>
+        <!-- Radiologie -->
+        <div class="bg-surface-container-low p-8 rounded-3xl service-card flex flex-col justify-between h-[420px]">
+          <div>
+            <div class="w-12 h-12 rounded-full bg-outline-variant/20 flex items-center justify-center mb-8">
+              <span class="material-symbols-outlined text-primary">radiology</span>
+            </div>
+            <h3 class="font-headline text-2xl font-bold text-on-surface mb-4">Imagerie Médicale</h3>
+            <p class="text-on-surface-variant text-sm leading-relaxed mb-4">Scanner 128 barrettes, IRM, Mammographie, Échographie, Radiologie conventionnelle, Panoramique dentaire.</p>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-primary font-headline font-bold text-sm">Dr. BOUHASSOUNE · Dr. RAHIM</span>
+            <span class="text-xs uppercase font-bold tracking-widest text-outline-variant">Dept. 02</span>
+          </div>
+        </div>
+        <!-- Pneumologie -->
+        <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow hover:shadow-lg transition-shadow service-card flex flex-col justify-between h-[420px]">
+          <div>
+            <div class="w-12 h-12 rounded-full bg-secondary-container/50 flex items-center justify-center mb-8">
+              <span class="material-symbols-outlined text-primary">air</span>
+            </div>
+            <h3 class="font-headline text-2xl font-bold text-on-surface mb-4">Pneumologie</h3>
+            <p class="text-on-surface-variant text-sm leading-relaxed mb-4">Exploration fonctionnelle respiratoire, prise en charge des pathologies pulmonaires complexes.</p>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-primary font-headline font-bold text-sm">Pr. LELLOU</span>
+            <span class="text-xs uppercase font-bold tracking-widest text-outline-variant">Dept. 03</span>
+          </div>
+        </div>
+        <!-- Scintigraphie (Large) -->
+        <div class="md:col-span-2 rounded-3xl overflow-hidden relative group service-card min-h-[420px]">
+          <img src="image/blanc.jpg" alt="Médecine nucléaire" class="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-multiply group-hover:scale-105 transition-transform duration-700"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/85 via-transparent to-transparent"></div>
+          <div class="relative h-full p-10 flex flex-col justify-end text-white min-h-[420px]">
+            <span class="bg-primary/20 backdrop-blur px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase mb-4 w-fit border border-white/10">Unité Spécialisée</span>
+            <h3 class="font-headline text-4xl font-extrabold mb-4">Médecine Nucléaire</h3>
+            <p class="max-w-md text-zinc-300 mb-6 leading-relaxed text-sm">Scintigraphie myocardique, thyroïdienne et rénale — diagnostics de précision au niveau cellulaire par Dr. MAQUCHE S.</p>
+            <button onclick="showPage('contact')" class="bg-white text-primary px-8 py-3 rounded-full font-headline font-bold text-sm w-fit hover:bg-primary hover:text-white transition-colors border-none cursor-pointer">
+              Prendre Rendez-vous
+            </button>
+          </div>
+        </div>
+        <!-- Endoscopie -->
+        <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow service-card flex flex-col justify-between h-[420px]">
+          <div>
+            <div class="w-12 h-12 rounded-full bg-secondary-container/50 flex items-center justify-center mb-8">
+              <span class="material-symbols-outlined text-primary">gastroenterology</span>
+            </div>
+            <h3 class="font-headline text-2xl font-bold text-on-surface mb-4">Explorations Endoscopiques</h3>
+            <p class="text-on-surface-variant text-sm leading-relaxed mb-4">Fibroscopie, coloscopie, nasofibroscopie, endoscopie rénale — avec ou sans sédation.</p>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-primary font-headline font-bold text-sm">Pr. BOUASSRIA</span>
+            <span class="text-xs uppercase font-bold tracking-widest text-outline-variant">Dept. 05</span>
+          </div>
+        </div>
+        <!-- Lab -->
+        <div class="md:col-span-2 bg-surface-container-lowest p-8 md:p-12 rounded-3xl editorial-shadow border border-outline-variant/10 flex flex-col md:flex-row gap-10 items-center service-card">
+          <div class="flex-1">
+            <div class="flex items-center gap-4 mb-8">
+              <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                <span class="material-symbols-outlined">biotech</span>
+              </div>
+              <span class="text-xs font-bold tracking-widest text-outline uppercase">Laboratoire Certifié</span>
+            </div>
+            <h3 class="font-headline text-3xl font-bold text-on-surface mb-4">Laboratoire d'Analyses Médicales</h3>
+            <p class="text-on-surface-variant leading-relaxed mb-6 text-sm">Tests rapides et fiables en biochimie, hématologie et microbiologie. Système GeneXpert pour les analyses moléculaires avancées.</p>
+            <div class="flex flex-wrap gap-3">
+              <span class="bg-surface-container px-4 py-2 rounded-full text-xs font-medium text-on-surface-variant">Bilans sanguins</span>
+              <span class="bg-surface-container px-4 py-2 rounded-full text-xs font-medium text-on-surface-variant">PCR / Charges virales</span>
+              <span class="bg-surface-container px-4 py-2 rounded-full text-xs font-medium text-on-surface-variant">GeneXpert</span>
+              <span class="bg-surface-container px-4 py-2 rounded-full text-xs font-medium text-on-surface-variant">HBV · HCV · HIV</span>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 h-56 md:h-64 rounded-2xl overflow-hidden">
+            <img src="image/louis-reed-pwcKF7L4-no-unsplash (1).jpg" alt="Laboratoire d'analyses" class="w-full h-full object-cover"/>
+          </div>
+        </div>
+        <!-- Gastro -->
+        <div class="bg-surface-container-low p-8 rounded-3xl service-card flex flex-col justify-between h-[280px]">
+          <div>
+            <div class="w-12 h-12 rounded-full bg-outline-variant/20 flex items-center justify-center mb-6">
+              <span class="material-symbols-outlined text-primary">nephrology</span>
+            </div>
+            <h3 class="font-headline text-xl font-bold text-on-surface mb-2">Gastro-entérologie</h3>
+            <p class="text-on-surface-variant text-sm leading-relaxed">Diagnostic et traitement complets des pathologies digestives.</p>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-primary font-headline font-bold text-sm">Pr. BOUASSRIA</span>
+            <span class="text-xs uppercase font-bold tracking-widest text-outline-variant">Dept. 06</span>
+          </div>
+        </div>
+        <!-- Hématologie -->
+        <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow service-card flex flex-col justify-between h-[280px]">
+          <div>
+            <div class="w-12 h-12 rounded-full bg-secondary-container/50 flex items-center justify-center mb-6">
+              <span class="material-symbols-outlined text-primary">bloodtype</span>
+            </div>
+            <h3 class="font-headline text-xl font-bold text-on-surface mb-2">Hématologie</h3>
+            <p class="text-on-surface-variant text-sm leading-relaxed">Prise en charge des pathologies du sang et de l'hématopoïèse.</p>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-primary font-headline font-bold text-sm">Pr. BEKADJA</span>
+            <span class="text-xs uppercase font-bold tracking-widest text-outline-variant">Dept. 07</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ==================== PAGE: EQUIPE ==================== -->
+<div class="page" id="page-equipe">
+  <section class="pt-40 pb-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <header class="mb-20 grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+        <div class="md:col-span-8">
+          <span class="text-primary font-headline font-bold tracking-widest text-xs uppercase mb-4 block">Notre Équipe</span>
+          <h1 class="font-headline font-extrabold text-5xl md:text-7xl text-on-surface tracking-tighter leading-[0.95] mb-8">
+            Nos Médecins<br/><span class="text-primary italic">Spécialistes.</span>
+          </h1>
+          <p class="text-on-surface-variant text-lg max-w-xl leading-relaxed">Notre équipe de professeurs universitaires et spécialistes reconnus, engagés pour les meilleurs standards de soins médicaux.</p>
+        </div>
+        <div class="md:col-span-4 flex justify-end">
+          <div class="w-20 h-20 rounded-full editorial-gradient flex items-center justify-center">
+            <span class="material-symbols-outlined text-white text-4xl" style="font-variation-settings:'FILL' 1;">medical_services</span>
+          </div>
+        </div>
+      </header>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- Doctor cards — icon only, no photo -->
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+            <div class="absolute bottom-3 left-4">
+              <span class="bg-primary/90 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">Expert Senior</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Pr. BOUASSRIA</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Entéro-Gastrologue</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">verified</span><span class="text-xs text-on-surface-variant">Board Certified</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Salle 01</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+            <div class="absolute bottom-3 left-4">
+              <span class="bg-secondary/90 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">Chef de Dept.</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Pr. BELGACEM A.</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Cardiologue</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">cardiology</span><span class="text-xs text-on-surface-variant">IRM Cardiaque</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Salle 02</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+            <div class="absolute bottom-3 left-4">
+              <span class="bg-primary/90 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">Spécialiste</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Pr. LELLOU</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Pneumologue</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">air</span><span class="text-xs text-on-surface-variant">Exploration fonctionnelle</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Salle 03</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Pr. HAMDANI</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Néphrologue</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">nephrology</span><span class="text-xs text-on-surface-variant">Board Certified</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Salle 04</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Pr. BOUHADIBA</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Traumatologue</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">orthopedics</span><span class="text-xs text-on-surface-variant">Board Certified</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Salle 05</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Pr. BEKADJA</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Hématologue</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">bloodtype</span><span class="text-xs text-on-surface-variant">Board Certified</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Salle 06</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Dr. BOUHASSOUNE</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Radiologue</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">radiology</span><span class="text-xs text-on-surface-variant">Diagnostics Lead</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Imagerie</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Dr. MAQUCHE S.</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Médecin Nucléaire</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">hub</span><span class="text-xs text-on-surface-variant">Scintigraphie</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Nucléaire</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Dr. BENDAHMANE</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Médecine Interne</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">stethoscope</span><span class="text-xs text-on-surface-variant">Board Certified</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Salle 09</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Dr. RAHIM</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Radiologue</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">radiology</span><span class="text-xs text-on-surface-variant">Board Certified</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Imagerie</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl overflow-hidden editorial-shadow doctor-card border border-outline-variant/10">
+          <div class="aspect-[4/3] bg-gradient-to-br from-primary/8 to-secondary/8 flex items-center justify-center relative overflow-hidden">
+            <div class="w-24 h-24 rounded-full editorial-gradient flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings:'FILL' 0;">person</span>
+            </div>
+          </div>
+          <div class="p-7">
+            <h3 class="font-headline font-bold text-2xl text-on-surface mb-1">Dr. MAGHRAOUI</h3>
+            <p class="text-primary font-semibold text-sm mb-4">Traumatologue</p>
+            <div class="flex items-center justify-between pt-4 border-t border-outline-variant/15">
+              <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">orthopedics</span><span class="text-xs text-on-surface-variant">Board Certified</span></div>
+              <span class="text-xs text-outline-variant font-bold uppercase tracking-widest">Salle 12</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Multi-disciplinary section -->
+      <section class="mt-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="relative rounded-3xl overflow-hidden aspect-video editorial-shadow">
+          <img src="image/482223918_2734588150084514_2616425757395574888_n.jpg" alt="Clinique Les Lilas couloir" class="w-full h-full object-cover"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+        </div>
+        <div class="space-y-8">
+          <h2 class="font-headline font-bold text-4xl text-on-surface tracking-tight leading-tight">Approche Multi-disciplinaire <span class="text-primary italic">de l'Excellence.</span></h2>
+          <div class="space-y-6">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-primary/8 flex items-center justify-center flex-shrink-0 border border-primary/10">
+                <span class="material-symbols-outlined text-primary">groups</span>
+              </div>
+              <div>
+                <h4 class="font-bold text-on-surface mb-1">Diagnostic Collaboratif</h4>
+                <p class="text-sm text-on-surface-variant leading-relaxed">Nos praticiens collaborent quotidiennement sur les cas complexes pour une vision médicale à 360 degrés.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-primary/8 flex items-center justify-center flex-shrink-0 border border-primary/10">
+                <span class="material-symbols-outlined text-primary">science</span>
+              </div>
+              <div>
+                <h4 class="font-bold text-on-surface mb-1">Excellence Académique</h4>
+                <p class="text-sm text-on-surface-variant leading-relaxed">Nombreux membres du staff sont professeurs dans les universités de médecine, apportant la recherche à votre chevet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</div>
+
+<!-- ==================== PAGE: ABOUT ==================== -->
+<div class="page" id="page-about">
+  <section class="pt-40 pb-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-end mb-20">
+        <div>
+          <span class="text-primary font-headline font-bold tracking-widest uppercase text-xs mb-4 block">À Propos</span>
+          <h1 class="font-headline text-5xl md:text-6xl font-extrabold text-on-surface tracking-tighter leading-[1.05] mb-6">
+            Excellence à l'<span class="text-primary italic">cœur</span> de votre santé.
+          </h1>
+          <p class="text-on-surface-variant text-lg max-w-lg leading-relaxed">Situés dans la Zone des Cliniques de Bir El Djir, nos établissements combinent technologie médicale de pointe et attention humaine centrée sur chaque patient.</p>
+        </div>
+        <div class="relative h-96 rounded-3xl overflow-hidden editorial-shadow">
+          <img src="image/60813102_1095052104038135_5213090648000823296_n.png" alt="Clinique Les Lilas bâtiment" class="w-full h-full object-cover"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+        </div>
+      </div>
+      <!-- Mission -->
+      <div class="bg-surface-container-lowest rounded-3xl p-10 md:p-14 border-l-4 border-primary editorial-shadow mb-16">
+        <p class="text-xl md:text-2xl font-headline font-medium text-on-surface leading-relaxed italic">"Notre mission est de fournir des soins médicaux de la plus haute qualité, en combinant expertise humaine et technologies de pointe, pour le bien-être de chaque patient qui nous fait confiance."</p>
+        <div class="mt-6 flex items-center gap-3">
+          <div class="w-8 h-8 rounded-full editorial-gradient flex items-center justify-center">
+            <span class="material-symbols-outlined text-white text-sm" style="font-variation-settings:'FILL' 1;">medical_services</span>
+          </div>
+          <span class="text-sm font-bold text-on-surface-variant">Direction Médicale — Clinique Les Lilas</span>
+        </div>
+      </div>
+      <!-- Values -->
+      <div class="mb-16">
+        <h2 class="font-headline text-3xl font-extrabold text-on-surface mb-10 tracking-tight">Nos <span class="text-primary italic">Valeurs</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow border border-outline-variant/10">
+            <div class="text-5xl font-extrabold text-primary/15 font-headline mb-4">01</div>
+            <h3 class="font-headline text-xl font-bold text-on-surface mb-3">Excellence Médicale</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed">Professeurs universitaires et spécialistes reconnus, engagés pour les meilleurs standards de soins.</p>
+          </div>
+          <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow border border-outline-variant/10">
+            <div class="text-5xl font-extrabold text-primary/15 font-headline mb-4">02</div>
+            <h3 class="font-headline text-xl font-bold text-on-surface mb-3">Innovation Technologique</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed">Scanner 128 barrettes, IRM, GeneXpert, médecine nucléaire — les équipements les plus modernes.</p>
+          </div>
+          <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow border border-outline-variant/10">
+            <div class="text-5xl font-extrabold text-primary/15 font-headline mb-4">03</div>
+            <h3 class="font-headline text-xl font-bold text-on-surface mb-3">Accessibilité 24h/24</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed">Ouvert 7 jours sur 7, 24h/24, pour répondre à vos besoins médicaux à tout moment.</p>
+          </div>
+          <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow border border-outline-variant/10">
+            <div class="text-5xl font-extrabold text-primary/15 font-headline mb-4">04</div>
+            <h3 class="font-headline text-xl font-bold text-on-surface mb-3">Confiance & Transparence</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed">Résultats fiables, diagnostics clairs, communication honnête avec chaque patient.</p>
+          </div>
+          <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow border border-outline-variant/10">
+            <div class="text-5xl font-extrabold text-primary/15 font-headline mb-4">05</div>
+            <h3 class="font-headline text-xl font-bold text-on-surface mb-3">Confort du Patient</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed">Espaces modernes et confortables, équipe accueillante, pour une expérience sereine.</p>
+          </div>
+          <div class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow border border-outline-variant/10">
+            <div class="text-5xl font-extrabold text-primary/15 font-headline mb-4">06</div>
+            <h3 class="font-headline text-xl font-bold text-on-surface mb-3">Prise en Charge Globale</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed">Du diagnostic à la consultation spécialisée, un parcours de soin intégré sous un même toit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ==================== PAGE: CONTACT ==================== -->
+<div class="page" id="page-contact">
+  <section class="pt-40 pb-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-end mb-16">
+        <div>
+          <span class="inline-block px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label text-xs font-bold uppercase tracking-widest mb-6">Contact & Rendez-vous</span>
+          <h1 class="font-headline text-5xl md:text-6xl font-extrabold text-on-surface tracking-tight leading-[1.05] mb-6">
+            Excellence au <span class="text-primary italic">cœur</span> de vos soins.
+          </h1>
+          <p class="text-on-surface-variant text-lg max-w-lg leading-relaxed">Situés dans la Zone des Cliniques de Bir El Djir, Oran. Notre équipe est disponible 24h/24 pour vous accueillir.</p>
+        </div>
+        <div class="relative h-80 rounded-3xl overflow-hidden editorial-shadow">
+          <img src="image/clinique2.jpg" alt="Entrée Clinique Les Lilas" class="w-full h-full object-cover"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+        </div>
+      </div>
+      <!-- Form + Contacts -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <!-- Form -->
+
+        <div class="lg:col-span-7 bg-surface-container-lowest rounded-3xl p-8 lg:p-12 editorial-shadow border border-outline-variant/10">
+          <div class="flex items-center gap-4 mb-10">
+            <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+              <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">calendar_month</span>
+            </div>
+            <div>
+              <h2 class="font-headline text-2xl font-bold text-on-surface">Prise de Rendez-vous</h2>
+              <p class="text-sm text-on-surface-variant">Choisissez votre département et envoyez votre demande.</p>
+            </div>
+          </div>
+          <form name="contact" method="POST" data-netlify="true" class="space-y-7">
+            <input type="hidden" name="form-name" value="contact">
+            <input type="hidden" name="_subject" value="Nouveau RDV — Clinique Les Lilas"/>
+            <input type="hidden" name="_honeypot" value=""/>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="space-y-2">
+                <label class="font-label text-xs font-bold text-on-surface-variant uppercase tracking-widest">Nom *</label>
+                <input name="nom" required placeholder="Votre nom" type="text" class="w-full bg-surface-container-low border-b-2 border-outline-variant/40 py-3 px-1 text-on-surface font-body text-sm bg-transparent"/>
+              </div>
+              <div class="space-y-2">
+                <label class="font-label text-xs font-bold text-on-surface-variant uppercase tracking-widest">Prénom *</label>
+                <input name="prenom" required placeholder="Votre prénom" type="text" class="w-full bg-surface-container-low border-b-2 border-outline-variant/40 py-3 px-1 text-on-surface font-body text-sm bg-transparent"/>
+              </div>
+            </div>
+            <div class="space-y-2">
+              <label class="font-label text-xs font-bold text-on-surface-variant uppercase tracking-widest">Téléphone *</label>
+              <input name="telephone" required placeholder="0550 00 00 00" type="tel" class="w-full border-b-2 border-outline-variant/40 py-3 px-1 text-on-surface font-body text-sm bg-transparent"/>
+            </div>
+            <div class="space-y-2">
+              <label class="font-label text-xs font-bold text-on-surface-variant uppercase tracking-widest">Département Médical</label>
+              <select name="service" class="w-full border-b-2 border-outline-variant/40 py-3 px-1 text-on-surface font-body text-sm bg-transparent">
+                <option value="">Choisir un service...</option>
+                <option>Imagerie — Scanner 128 barrettes</option>
+                <option>Imagerie — IRM</option>
+                <option>Imagerie — Mammographie</option>
+                <option>Imagerie — Échographie</option>
+                <option>Laboratoire d'analyses</option>
+                <option>Médecine nucléaire — Scintigraphie</option>
+                <option>Endoscopie — Fibroscopie</option>
+                <option>Endoscopie — Coloscopie</option>
+                <option>Consultation Cardiologie</option>
+                <option>Consultation Néphrologie</option>
+                <option>Consultation Pneumologie</option>
+                <option>Consultation Gastro-entérologie</option>
+                <option>Consultation Traumatologie</option>
+                <option>Consultation Hématologie</option>
+                <option>Médecine interne</option>
+              </select>
+            </div>
+            <div class="space-y-2">
+              <label class="font-label text-xs font-bold text-on-surface-variant uppercase tracking-widest">Message (optionnel)</label>
+              <textarea name="message" placeholder="Décrivez brièvement votre demande..." rows="3" class="w-full border-b-2 border-outline-variant/40 py-3 px-1 text-on-surface font-body text-sm bg-transparent resize-none"></textarea>
+            </div>
+            <button type="submit" class="w-full editorial-gradient text-white py-4 rounded-full font-headline font-bold text-base shadow-lg shadow-primary/20 hover:opacity-90 transition-all active:scale-95 border-none cursor-pointer">
+              Confirmer la Demande de Rendez-vous
+            </button>
+            <div id="formSuccess" class="hidden flex items-center gap-3 bg-green-50 border border-green-200 rounded-2xl p-4 text-green-700 text-sm font-semibold">
+              <span class="material-symbols-outlined text-green-600">check_circle</span>
+              Votre demande a bien été envoyée. Nous vous contactons sous 24h.
+            </div>
+            <p class="text-center text-xs text-on-surface-variant flex items-center justify-center gap-2">
+              <span class="material-symbols-outlined text-primary text-sm">lock</span>
+              Vos données sont protégées — Conformité RGPD garantie
+            </p>
+          </form>
+        </div>
+        <!-- Contacts -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="bg-surface-container rounded-3xl p-8 space-y-7">
+            <h3 class="font-headline text-xl font-bold text-on-surface">Contacts Directs</h3>
+            <div class="space-y-5">
+              <a href="tel:0560140140" class="flex items-start gap-4" style="text-decoration:none;">
+                <span class="material-symbols-outlined text-primary mt-0.5">call</span>
+                <div>
+                  <p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Consultation</p>
+                  <p class="text-lg font-bold text-on-surface hover:text-primary transition-colors">0560 140 140</p>
+                </div>
+              </a>
+              <a href="tel:0560120420" class="flex items-start gap-4" style="text-decoration:none;">
+                <span class="material-symbols-outlined text-primary mt-0.5">science</span>
+                <div>
+                  <p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Laboratoire</p>
+                  <p class="text-lg font-bold text-on-surface hover:text-primary transition-colors">0560 120 420</p>
+                </div>
+              </a>
+              <a href="tel:0560120220" class="flex items-start gap-4" style="text-decoration:none;">
+                <span class="material-symbols-outlined text-primary mt-0.5">radiology</span>
+                <div>
+                  <p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Imagerie</p>
+                  <p class="text-lg font-bold text-on-surface hover:text-primary transition-colors">0560 120 220</p>
+                </div>
+              </a>
+              <a href="mailto:leslilasclinique@gmail.com" class="flex items-start gap-4" style="text-decoration:none;">
+                <span class="material-symbols-outlined text-primary mt-0.5">mail</span>
+                <div>
+                  <p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Email</p>
+                  <p class="text-base font-bold text-on-surface hover:text-primary transition-colors">leslilasclinique@gmail.com</p>
+                </div>
+              </a>
+              <div class="flex items-start gap-4">
+                <span class="material-symbols-outlined text-primary mt-0.5">location_on</span>
+                <div>
+                  <p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Adresse</p>
+                  <p class="text-base font-semibold text-on-surface leading-snug">13-Zone des cliniques, Pos 50<br/>Bir El Djir, Oran 31000</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <span class="material-symbols-outlined text-primary mt-0.5">schedule</span>
+                <div>
+                  <p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Horaires</p>
+                  <p class="text-base font-semibold text-on-surface">Ouvert 7j/7 · 24h/24</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Map -->
+          <div class="rounded-3xl overflow-hidden editorial-shadow border border-outline-variant/10 relative" style="height: 280px;">
+            <!-- revoir -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3228.5!2d-0.5923!3d35.6671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBir+El+Djir+Oran!5e0!3m2!1sfr!2sdz!4v1" width="100%" height="280" frameborder="0" allowfullscreen="" loading="lazy" style="border:0;display:block;"></iframe>
+          </div>
+          <!-- Urgences -->
+          <div class="p-5 rounded-2xl bg-primary/5 border border-primary/15">
+            <p class="text-primary font-headline font-bold text-xl">0560 140 140</p>
+            <p class="text-xs text-primary/60 font-bold uppercase tracking-widest mt-1">Ligne d'urgence 24h/24</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- FOOTER -->
+<footer class="w-full pt-16 pb-8 bg-zinc-950 border-t border-white/5">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16 pb-16 border-b border-white/6">
+      <div class="md:col-span-1">
+        <div class="flex items-center gap-3 mb-5">
+          <svg width="32" height="32" viewBox="0 0 42 42" fill="none">
+            <circle cx="13" cy="13" r="11" fill="#C2185B"/>
+            <circle cx="29" cy="13" r="11" fill="#9C27B0" opacity="0.75"/>
+            <circle cx="13" cy="29" r="11" fill="#9C27B0" opacity="0.55"/>
+            <circle cx="29" cy="29" r="11" fill="#C2185B" opacity="0.65"/>
+          </svg>
+          <span class="text-lg font-bold text-white font-headline">Clinique Les Lilas</span>
+        </div>
+        <p class="text-zinc-500 text-sm leading-relaxed">Excellence médicale au cœur de Bir El Djir, Oran. Technologies de pointe, équipe experte, disponibilité 24h/24.</p>
+      </div>
+      <div>
+        <h5 class="font-headline font-bold text-white text-xs uppercase tracking-widest mb-5">Services</h5>
+        <ul class="space-y-3">
+          <li><button onclick="showPage('services')" class="text-zinc-500 text-sm hover:text-white transition-colors bg-transparent border-none cursor-pointer p-0 font-body">Imagerie médicale</button></li>
+          <li><button onclick="showPage('services')" class="text-zinc-500 text-sm hover:text-white transition-colors bg-transparent border-none cursor-pointer p-0 font-body">Laboratoire</button></li>
+          <li><button onclick="showPage('services')" class="text-zinc-500 text-sm hover:text-white transition-colors bg-transparent border-none cursor-pointer p-0 font-body">Médecine nucléaire</button></li>
+          <li><button onclick="showPage('services')" class="text-zinc-500 text-sm hover:text-white transition-colors bg-transparent border-none cursor-pointer p-0 font-body">Endoscopies</button></li>
+          <li><button onclick="showPage('services')" class="text-zinc-500 text-sm hover:text-white transition-colors bg-transparent border-none cursor-pointer p-0 font-body">Consultations</button></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="font-headline font-bold text-white text-xs uppercase tracking-widest mb-5">Clinique</h5>
+        <ul class="space-y-3">
+          <li><button onclick="showPage('about')" class="text-zinc-500 text-sm hover:text-white transition-colors bg-transparent border-none cursor-pointer p-0 font-body">À propos</button></li>
+          <li><button onclick="showPage('equipe')" class="text-zinc-500 text-sm hover:text-white transition-colors bg-transparent border-none cursor-pointer p-0 font-body">Notre équipe</button></li>
+          <li><button onclick="showPage('contact')" class="text-zinc-500 text-sm hover:text-white transition-colors bg-transparent border-none cursor-pointer p-0 font-body">Contact & RDV</button></li>
+          <li><a href="#" class="text-zinc-500 text-sm hover:text-white transition-colors font-body" style="text-decoration:none;">Mentions légales</a></li>
+          <li><a href="#" class="text-zinc-500 text-sm hover:text-white transition-colors font-body" style="text-decoration:none;">Politique de confidentialité</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="font-headline font-bold text-white text-xs uppercase tracking-widest mb-5">Urgences</h5>
+        <div class="p-4 rounded-2xl bg-primary/10 border border-primary/15 mb-4">
+          <p class="text-primary font-bold text-xl font-headline">0560 140 140</p>
+          <p class="text-xs text-primary/60 font-bold uppercase tracking-widest mt-1">Ligne 24h/24</p>
+        </div>
+        <p class="text-zinc-500 text-xs leading-relaxed">13-Zone des cliniques, Pos 50<br/>Bir El Djir, Oran 31000<br/>leslilasclinique@gmail.com</p>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+      <p class="text-zinc-600 text-xs">© 2026 Clinique Les Lilas — Bir El Djir, Oran. Tous droits réservés.</p>
+      <div class="flex gap-4">
+        <a href="#" class="text-zinc-600 hover:text-white transition-colors text-xs font-body" style="text-decoration:none;">Mentions légales</a>
+        <a href="#" class="text-zinc-600 hover:text-white transition-colors text-xs font-body" style="text-decoration:none;">Confidentialité</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/213560140140" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Clinique Les Lilas">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+</a>
+
+<script>
+// ===== SPA NAVIGATION =====
+function showPage(pageId) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-link').forEach(a => {
+    a.classList.remove('text-primary', 'bg-primary/8');
+    a.classList.add('text-on-surface-variant');
+  });
+  const page = document.getElementById('page-' + pageId);
+  if (page) { page.classList.add('active'); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+  const navLink = document.getElementById('nav-' + pageId);
+  if (navLink) {
+    navLink.classList.add('text-primary', 'bg-primary/8');
+    navLink.classList.remove('text-on-surface-variant');
+  }
+  initReveal();
+}
+
+// ===== MOBILE MENU =====
+function toggleMobileMenu() {
+  const menu = document.getElementById('mobileMenu');
+  menu.classList.toggle('hidden');
+}
+
+// ===== SCROLL REVEAL =====
+function initReveal() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
+}
+initReveal();
+
+// ===== COUNTER ANIMATION =====
+function animateCount(el, target) {
+  let current = 0;
+  const step = Math.ceil(target / 55);
+  const timer = setInterval(() => {
+    current = Math.min(current + step, target);
+    el.textContent = current;
+    if (current >= target) clearInterval(timer);
+  }, 28);
+}
+const counterObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const target = parseInt(e.target.dataset.count);
+      if (target) animateCount(e.target, target);
+      counterObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('[data-count]').forEach(el => counterObs.observe(el));
+
+// ===== NAVBAR SHADOW ON SCROLL =====
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('navbar');
+  if (window.scrollY > 30) {
+    nav.style.boxShadow = '0 4px 24px rgba(124,0,86,0.08)';
+  } else {
+    nav.style.boxShadow = '0 1px 3px rgba(124,0,86,0.05)';
+  }
+});
+
+// ===== FORM HANDLER =====
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const btn = this.querySelector('button[type="submit"]');
+  btn.textContent = 'Envoi en cours...';
+  btn.disabled = true;
+  // In production: replace with actual Formspree fetch
+  setTimeout(() => {
+    document.getElementById('formSuccess').classList.remove('hidden');
+    document.getElementById('formSuccess').classList.add('flex');
+    this.reset();
+    btn.textContent = 'Confirmer la Demande de Rendez-vous';
+    btn.disabled = false;
+    setTimeout(() => {
+      document.getElementById('formSuccess').classList.add('hidden');
+      document.getElementById('formSuccess').classList.remove('flex');
+    }, 6000);
+  }, 1000);
+});
+
+// Set home as active on load
+document.getElementById('nav-home').classList.add('text-primary', 'bg-primary/8');
+document.getElementById('nav-home').classList.remove('text-on-surface-variant');
+</script>
+</body>
+</html>
