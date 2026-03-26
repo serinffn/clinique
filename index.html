@@ -141,10 +141,12 @@ tailwind.config = {
 </head>
 <script>
   const form = document.querySelector("form[name='contact']");
-  
+  const successMessage = document.getElementById("formSuccess");
+
   form.addEventListener("submit", function () {
     setTimeout(() => {
-      window.location.href = "/merci.html";
+      form.reset();
+      successMessage.classList.remove("hidden");
     }, 500);
   });
 </script>
@@ -975,8 +977,8 @@ tailwind.config = {
             </div>
           </div>
           <form name="contact" method="POST" data-netlify="true" class="space-y-7">
-              <label>Ne pas remplir: <input name="bot-field"></label>
-            </p>
+            <input type="hidden" name="form-name" value="contact">
+            
             <input type="hidden" name="form-name" value="contact">
             <input type="hidden" name="_subject" value="Nouveau RDV — Clinique Les Lilas"/>
             
