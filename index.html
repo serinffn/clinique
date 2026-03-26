@@ -965,11 +965,13 @@ tailwind.config = {
               <p class="text-sm text-on-surface-variant">Choisissez votre département et envoyez votre demande.</p>
             </div>
           </div>
-          <form name="contact" method="POST" data-netlify="true"   action="/merci.html" class="space-y-7"  >
-            
+          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/merci.html" class="space-y-7">
+            <p hidden>
+              <label>Ne pas remplir: <input name="bot-field"></label>
+            </p>
             <input type="hidden" name="form-name" value="contact">
             <input type="hidden" name="_subject" value="Nouveau RDV — Clinique Les Lilas"/>
-            <input type="hidden" name="_honeypot" value=""/>
+            
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div class="space-y-2">
                 <label class="font-label text-xs font-bold text-on-surface-variant uppercase tracking-widest">Nom *</label>
