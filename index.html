@@ -139,6 +139,15 @@ tailwind.config = {
   .reveal:nth-child(6) { transition-delay: 0.5s; }
 </style>
 </head>
+<script>
+  const form = document.querySelector("form[name='contact']");
+  
+  form.addEventListener("submit", function () {
+    setTimeout(() => {
+      window.location.href = "/merci.html";
+    }, 500);
+  });
+</script>
 <body class="bg-background text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
 
 <!-- TOPBAR -->
@@ -965,8 +974,7 @@ tailwind.config = {
               <p class="text-sm text-on-surface-variant">Choisissez votre département et envoyez votre demande.</p>
             </div>
           </div>
-          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/merci.html" class="space-y-7">
-            <p hidden>
+          <form name="contact" method="POST" data-netlify="true" class="space-y-7">
               <label>Ne pas remplir: <input name="bot-field"></label>
             </p>
             <input type="hidden" name="form-name" value="contact">
