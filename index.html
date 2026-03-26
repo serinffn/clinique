@@ -139,17 +139,7 @@ tailwind.config = {
   .reveal:nth-child(6) { transition-delay: 0.5s; }
 </style>
 </head>
-<script>
-  const form = document.querySelector("form[name='contact']");
-  const successMessage = document.getElementById("formSuccess");
 
-  form.addEventListener("submit", function () {
-    setTimeout(() => {
-      form.reset();
-      successMessage.classList.remove("hidden");
-    }, 500);
-  });
-</script>
 <body class="bg-background text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
 
 <!-- TOPBAR -->
@@ -976,10 +966,10 @@ tailwind.config = {
               <p class="text-sm text-on-surface-variant">Choisissez votre département et envoyez votre demande.</p>
             </div>
           </div>
-          <form name="contact" method="POST" data-netlify="true" class="space-y-7">
-            <input type="hidden" name="form-name" value="contact">
+          <form action="https://formspree.io/f/mkopnzba" method="POST" class="space-y-7">
+            <input type="hidden" name="_next" value="https://cliniquel.netlify.app/merci.html">
             
-            <input type="hidden" name="form-name" value="contact">
+
             <input type="hidden" name="_subject" value="Nouveau RDV — Clinique Les Lilas"/>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -1247,12 +1237,6 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 document.getElementById('nav-home').classList.add('text-primary', 'bg-primary/8');
 document.getElementById('nav-home').classList.remove('text-on-surface-variant');
 </script>
-<form name="contact" method="POST" data-netlify="true" hidden>
-  <input name="nom">
-  <input name="prenom">
-  <input name="telephone">
-  <input name="service">
-  <textarea name="message"></textarea>
-</form>
+
 </body>
 </html>
